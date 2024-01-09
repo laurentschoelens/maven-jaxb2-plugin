@@ -1,0 +1,10 @@
+<xsd:schema targetNamespace="http://www.foo.com/schemas/commonbutamazing/v2"
+            xmlns="http://www.foo.com/schemas/commonbutamazing/v2"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- some structure -->
+  <xsd:complexType name="CommonType">
+    <xsd:sequence>
+      <xsd:element name="commonField" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

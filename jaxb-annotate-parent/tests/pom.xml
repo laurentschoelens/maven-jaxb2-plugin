@@ -47,6 +47,7 @@
     <module>annotate</module>
     <module>base-dependent</module>
     <module>issues</module>
+    <module>jap-69</module>
     <module>one</module>
     <module>removexmlannotate</module>
   </modules>

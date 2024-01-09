@@ -1,0 +1,12 @@
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <bindings schemaLocation="../xsd/a/a.xsd">
+    <schemaBindings>
+      <package name="com.foo.something.schema.management.input"/>
+    </schemaBindings>
+  </bindings>
+  <bindings schemaLocation="../xsd/common/common.xsd">
+    <schemaBindings>
+      <package name="com.foo.something.schema.common"/>
+    </schemaBindings>
+  </bindings>
+</bindings>

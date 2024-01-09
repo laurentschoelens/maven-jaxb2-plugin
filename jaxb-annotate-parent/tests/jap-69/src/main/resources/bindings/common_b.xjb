@@ -1,0 +1,18 @@
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xmlns:annox="urn:jaxb.jvnet.org:annox"
+          extensionBindingPrefixes="xjc annox">
+  <bindings schemaLocation="../xsd/b/b.xsd">
+    <schemaBindings>
+      <package name="com.foo.something.schema.responding.output"/>
+    </schemaBindings>
+    <bindings schemaLocation="../xsd/b/b.xsd" node="//xsd:element[@name='b']" multiple="true">
+      <annox:annotate target="field">@jakarta.annotation.Nullable</annox:annotate>
+    </bindings>
+    <bindings schemaLocation="../xsd/common/common.xsd">
+      <schemaBindings>
+        <package name="com.foo.something.schema.common"/>
+      </schemaBindings>
+    </bindings>
+  </bindings>
+</bindings>

@@ -1,0 +1,16 @@
+<xsd:schema targetNamespace="http://www.foo.com/schemas/bar/responding/output/v3"
+            xmlns="http://www.foo.com/schemas/bar/responding/output/v3"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:p1="http://www.foo.com/schemas/commonbutamazing/v2">
+
+  <xsd:import namespace="http://www.foo.com/schemas/commonbutamazing/v2" schemaLocation="../common/common.xsd"/>
+
+  <xsd:element name="bType" type="BType"/>
+
+  <xsd:complexType name="BType">
+    <xsd:sequence>
+      <xsd:element name="b" type="p1:CommonType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+</xsd:schema>
